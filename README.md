@@ -84,3 +84,12 @@ FROM Empleado WHERE apellidos_empleado LIKE 'Diaz%' OR apellidos_empleado LIKE '
 `SELECT e.nombre_empleado, e.apellidos_empleado FROM Empleado e JOIN Departamento d ON e.id_departamento = d.id_departamento WHERE d.presupuesto_departamento > 100000000;`
 
 ![empleado_presupuesto2](img/empleado_presupuesto2.png)
+
+
+
+# **inner join**
+![Gemini_Imagen](img/Gemini_Imagen.png)
+
+
+# **subconsulta**
+![Gemini_Imagen](img/Gemini_subconsultas.png)
